@@ -1,0 +1,347 @@
+/* ============================= */
+/* LOGIN & REGISTER PAGE */
+/* ============================= */
+
+.form-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f7fb;
+  padding: 40px 20px;
+}
+
+.form-box {
+  width: 420px;
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-box h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-box > p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.form-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form-box input,
+.form-box select {
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.form-box input:focus,
+.form-box select:focus {
+  outline: none;
+  border-color: #5b5be7;
+}
+
+.form-box button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #5b5be7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background: #4444c7;
+}
+
+.form-box a {
+  color: #5b5be7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* ============================= */
+/* DASHBOARD */
+/* ============================= */
+
+.dashboard-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 50px 8%;
+}
+
+.dashboard-page > h1 {
+  margin-bottom: 10px;
+}
+
+.dashboard-page > p {
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.dashboard-card h2 {
+  margin-bottom: 8px;
+}
+
+.dashboard-card p {
+  color: #666;
+  margin: 8px 0;
+}
+
+.dashboard-card strong {
+  display: inline-block;
+  margin-top: 12px;
+  color: #4caf50;
+}
+
+.dashboard-card button {
+  margin-top: 12px;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 7px;
+  background: #5b5be7;
+  color: white;
+  cursor: pointer;
+}
+
+.match-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.dashboard-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.dashboard-links a {
+  text-decoration: none;
+  color: #5b5be7;
+  font-weight: bold;
+}
+
+
+/* ============================= */
+/* EXPLORE SKILLS */
+/* ============================= */
+
+.explore-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 50px 8%;
+}
+
+.explore-page h1 {
+  margin-bottom: 10px;
+}
+
+.explore-page > p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.search-box {
+  width: 100%;
+  max-width: 500px;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.explore-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.explore-card h3 {
+  margin-bottom: 10px;
+}
+
+.explore-card p {
+  color: #666;
+  margin-bottom: 18px;
+}
+
+.explore-card button {
+  padding: 9px 15px;
+  border: none;
+  border-radius: 7px;
+  background: #5b5be7;
+  color: white;
+  cursor: pointer;
+}
+
+.explore-links {
+  display: flex;
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.explore-links a {
+  color: #5b5be7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* ============================= */
+/* PROFILE */
+/* ============================= */
+
+.profile-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  width: 600px;
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.profile-icon {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.profile-card > p {
+  color: #666;
+}
+
+.profile-card hr {
+  margin: 25px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.profile-card h2 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags span {
+  background: #eeeeff;
+  color: #4b4bd4;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.profile-links a {
+  color: #5b5be7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* ============================= */
+/* MOBILE RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 800px) {
+
+  .dashboard-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .match-list {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .form-box {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .dashboard-page,
+  .explore-page {
+    padding: 35px 20px;
+  }
+
+  .skill-list {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-card {
+    padding: 25px;
+  }
+
+  .dashboard-links,
+  .explore-links,
+  .profile-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
